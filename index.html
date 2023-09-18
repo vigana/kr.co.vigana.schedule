@@ -22,22 +22,27 @@
   </style>
 </head>
 
-<body class="min-h-screen bg-white flex items-center justify-center">
-  <div class="webina grid gap-3">
-    <div class="flex items-center justify-center p-5">
-      <div class="grid gap-3">
-        <div class="text-center"><img class="w-32 inline-block" src="https://avatars.githubusercontent.com/u/111247237" /></div>
-        <h1 class="text-center text-xl font-bold">비가나스쿨 레슨 예약</h1>
+<body class="min-h-screen bg-white">
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="webina grid gap-3">
+      <div class="flex items-center justify-center p-5">
+        <div class="grid gap-3">
+          <div class="text-center"><img class="w-32 inline-block" src="https://avatars.githubusercontent.com/u/111247237" /></div>
+          <h1 class="text-center text-xl font-bold">비가나스쿨 레슨 예약</h1>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-2 px-5 lg:px-0">
+        <a href="https://vigana.co.kr" target="_blank" class="block w-full bg-green-600 hover:bg-green-500 text-center text-white font-bold py-2 px-4 rounded">공식카페</a>
+        <a href="https://talk.vigana.co.kr" target="_blank" class="block w-full bg-yellow-300 hover:bg-yellow-200 text-center text-black font-bold py-2 px-4 rounded">카카오톡</a>
+      </div>
+      <div class="grid lg:grid-cols-2">
+        <iframe class="webina-videos pointer-events-none" frameborder="0" src="https://www.youtube.com/embed/-zpwWPfIZwk?mute=1&autoplay=1&loop=1&playlist=-zpwWPfIZwk&modestbranding=1&disablekb=1" allowfullscreen="yes"></iframe>
+        <iframe class="webina-iframe" scrolling="no" frameborder="0" src="https://whattime.co.kr/artcompanyvigana/miracle" id="whattime"></iframe>
       </div>
     </div>
-    <div class="grid grid-cols-2 gap-2 px-5 lg:px-0">
-      <a href="https://vigana.co.kr" target="_blank" class="block w-full bg-green-600 hover:bg-green-500 text-center text-white font-bold py-2 px-4 rounded">공식카페</a>
-      <a href="https://talk.vigana.co.kr" target="_blank" class="block w-full bg-yellow-300 hover:bg-yellow-200 text-center text-black font-bold py-2 px-4 rounded">카카오톡</a>
-    </div>
-    <div class="grid lg:grid-cols-2">
-      <iframe class="webina-iframe order-last" scrolling="no" frameborder="0" src="https://whattime.co.kr/artcompanyvigana/miracle"></iframe>
-      <iframe class="webina-videos pointer-events-none" frameborder="0" src="https://www.youtube.com/embed/-zpwWPfIZwk?mute=1&autoplay=1&loop=1&playlist=-zpwWPfIZwk&modestbranding=1&disablekb=1" allowfullscreen="yes"></iframe>
-    </div>
+  </div>
+  <div class="sticky z-10 bottom-0 lg:hidden">
+    <a href="#whattime" class="block w-full bg-green-600 hover:bg-green-500 text-center text-white text-lg font-bold py-2 px-4 rounded">레슨예약하기</a>
   </div>
 </body>
 
