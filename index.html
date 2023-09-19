@@ -18,7 +18,7 @@
   <style>
     .webina { max-width: 960px; width: 100%; }
     .webina-videos { width: 100%; height: 100%; aspect-ratio: 9 / 16; background: #000; }
-    .webina-iframe { width: 100%; height: 100%; aspect-ratio: 9 / 20; background: #fff; }
+    .webina-iframe { width: 100%; height: 100%; aspect-ratio: 9 / 16; background: #fff; }
     @media (min-width: 1024px) { .webina-iframe { aspect-ratio: 9 / 16; } }
   </style>
 </head>
@@ -47,18 +47,14 @@
       </div>
       
       <div class="grid lg:grid-cols-2">
-        <div>
-          <iframe class="webina-videos" frameborder="0" src="https://www.youtube.com/embed/rqTTLv_rSPQ?mute=1&autoplay=1&loop=1&playlist=rqTTLv_rSPQ&modestbranding=1&disablekb=1&fs=0" allowfullscreen="yes"></iframe>
-        </div>
-        <div>
-          <iframe class="webina-iframe" scrolling="no" frameborder="0" src="https://whattime.co.kr/artcompanyvigana/miracle" id="whattime"></iframe>
-        </div>
+        <iframe class="webina-videos" frameborder="0" src="https://www.youtube.com/embed/rqTTLv_rSPQ?mute=1&autoplay=1&loop=1&playlist=rqTTLv_rSPQ&modestbranding=1&disablekb=1&fs=0" allowfullscreen="yes"></iframe>
+        <iframe class="webina-iframe hidden lg:block" scrolling="no" frameborder="0" src="https://whattime.co.kr/artcompanyvigana/miracle" id="whattime"></iframe>
       </div>
     </div>
   </div>
   <div class="h-16 lg:hidden">
     <div class="fixed w-full z-10 bottom-0">
-      <a href="#whattime" class="block w-full bg-green-600 hover:bg-green-500 text-center text-white text-lg font-bold py-2 px-4 rounded">예약하러가기</a>
+      <a href="https://whattime.co.kr/artcompanyvigana/miracle" class="block w-full bg-green-600 hover:bg-green-500 text-center text-white text-lg font-bold py-2 px-4 rounded">예약하러가기</a>
     </div>
   </div>
 </body>
